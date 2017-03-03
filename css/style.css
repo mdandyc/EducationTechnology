@@ -1,0 +1,227 @@
+.loader {
+  position: fixed;
+  z-index: 100000;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+}
+.fading-line {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 40px;
+  height: 40px;
+  margin: -20px 0 0 -20px;
+  background-image: url(../image/fading-line.gif);
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+    html, body {
+      width: 100%;
+      height: 100%;
+    }
+.navbar-brand:hover img{
+       cursor: pointer;
+}
+
+	.navbar-default{
+		opacity: 0.8;
+	}
+    #background_video {
+      position: absolute;
+
+      top: 50%; left: 50%;
+      transform: translate(-50%, -50%);
+
+      object-fit: cover;
+      height: 100%; width: 100%;
+    }
+
+    #video_cover {
+      position: absolute;
+
+      width: 100%; height: 100%;
+
+      background: url('video_cover.jpeg') no-repeat;
+      background-size: cover;
+      background-position: center;
+    }
+
+    #video_controls {
+      position: absolute;
+      left: 50%;
+      transform: translate(-50%, 0);
+    }
+
+    #play img {
+      width: 100px;
+    }
+    #pause img {
+      width: 90px;
+    }
+    #pause {
+      display: none;
+    }
+
+    @media (min-width: 768px) {
+      #video_controls {
+        display: none;
+      }
+    }
+
+    /* Demo page specific styles */
+
+
+    #container {
+      height: 100%;
+    }
+
+  img.scrolldown{
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 100px;
+    display: block;
+    transform:translateY(-50%);
+    opacity: 0.6;
+  }
+.zoom-effect2 img {
+    -webkit-transition: all 1s ease; /* Safari and Chrome */
+    -moz-transition: all 1s ease; /* Firefox */
+    -ms-transition: all 1s ease; /* IE 9 */
+    -o-transition: all 1s ease; /* Opera */
+    transition: all 1s ease;
+}
+
+.zoom-effect2:hover img {
+     cursor: pointer;
+    -webkit-transform:scale(1.08); /* Safari and Chrome */
+    -moz-transform:scale(1.08); /* Firefox */
+    -ms-transform:scale(1.08); /* IE 9 */
+    -o-transform:scale(1.08); /* Opera */
+     transform:scale(1.08);
+}
+    #main_content {
+      margin-left:200px;
+    	margin-top: 400px;
+      z-index: 2;
+      position: relative;
+      display: inline-block;
+
+      /* Vertical center */
+      top: 50%;
+      transform: translateY(-50%);
+    }
+
+    #main_content h1 {
+      text-transform: uppercase;
+      font-weight: 600;
+      font-family: 'proxima-nova-condensed', Helvetica;
+      color: #fff;
+      font-size: 35px;
+    }
+
+
+    #main_content .info {
+      color: rgba(255,255,255,0.5);
+      font-size: 12px;
+      margin-top: 10px;
+    }
+
+hr.small {
+	max-width: 100px !important;
+	margin-right:350px!important;
+	border-width: 4px !important;
+	border-color:#FFF !important;
+}
+hr.small1 {
+  max-width: 100px !important;
+  margin-right:1050px!important;
+  border-width: 4px !important;
+  border-color:#FFF !important;
+}
+.cbp-so-scroller{
+	margin-top: 90px;
+}
+
+.content1{
+  margin-top: -60px;
+}
+.page1 h1{
+  color:#6e6c6c;
+  text-align: left;
+  font-size: 25px;
+}
+.page1 p{
+  color:#a2a1a1;
+  text-align: left;
+  font-size: 14px;
+}
+.page1 .cbp-so-side-right p{
+  margin-top: 170px;
+}
+.flipbook img {
+  width: 100%;
+  height: 100%;
+}
+.humanvec img {
+  width: 200px;
+  height: 500px;
+  margin-left: 200px;
+}
+.page1content{
+  margin-top: -200px;
+}
+@font-face {
+    font-family: opensans-light;
+    src: url(fonts/OpenSans-Light.ttf);
+}
+#page3{
+  margin-top: -175px;
+}
+
+.morepower{
+  margin-top: 300px;
+}
+.morepower p{
+  font-size: 16px;
+  font-family: opensans-light;
+  text-align: left;
+}
+.morepower h2{
+  font-weight:500;
+  font-family: opensans-light;
+  font-size:52px;
+  color: white;
+  text-align: left;
+}
+.page3img{
+  width: 100%;
+  height: 100%;
+  margin-top: 202px;
+}
+
+.who-we-help{
+  margin-top: -360px;
+  background-color:#82ca9c;
+}
+.who-we-help-item{
+  margin-top: 50px;
+}
+.zoom-effect:hover .humanvector{
+  -webkit-transform:scale(1.08);
+  transform: scale(1.08);
+}
+.zoom-effect:hover .book{
+  -webkit-transform:scale(1.08);
+  transform: scale(1.08);
+}
+.page4 h2{
+  text-align: left;
+  font-family: opensans-light;
+  font-size: 38px;
+}
+  
+.who-we-help-item ul{
+  width: 300px;
+}
